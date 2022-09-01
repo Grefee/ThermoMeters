@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sensor><id>1</id><name>Sklad</name><current>26.00</current><unit>°C</unit><minmax><today><min><value>23.93</value><date>31.08.2022 06:49:47</date><timestamp>1661921387</timestamp></min><max><value>26.40</value><date>31.08.2022 14:06:18</date><timestamp>1661947578</timestamp></max></today><absolute><min><value>10.03</value><date>01.03.2022 10:33:24</date><timestamp>1646127204</timestamp></min><max><value>32.21</value><date>21.06.2021 17:00:08</date><timestamp>1624287608</timestamp></max></absolute></minmax></sensor>
