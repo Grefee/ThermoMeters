@@ -13,6 +13,11 @@ class Teplomer:
         value = None
         self.value = value
 
+    def teplomerData(self):
+        self.ip_add
+        self.name
+        return (self.ip_add,self.name)
+
 
     def getData(self):
         page = requests.get("http://" + self.ip_add + "/xml/?mode=sensor&type=list&id=01")

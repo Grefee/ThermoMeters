@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<temp>
-		<id>01</id>
+		<id>1</id>
 		<name>TCZLIB301</name>
 		<ip>10.10.197.151</ip>
 	</temp>
 	<temp>
-		<id>02</id>
+		<id>2</id>
 		<name>TCZLIB302</name>
 		<ip>10.10.196.152</ip>
 	</temp>
 	<temp>
-		<id>03</id>
+		<id>3</id>
 		<name>TCZLIB303</name>
 		<ip>10.10.196.153</ip>
 	</temp>
 	<temp>
-		<id>05</id>
+		<id>5</id>
 		<name>TCZLIB304</name>
 		<ip>10.10.196.154</ip>
 	</temp>
 	<temp>
-		<id>06</id>
+		<id>6</id>
 		<name>TCZLIB305</name>
 		<ip>10.10.196.155</ip>
 	</temp>
 	<temp>
-		<id>07</id>
+		<id>7</id>
 		<name>TCZLIB306</name>
 		<ip>10.10.196.156</ip>
 	</temp>
 	<temp>
-		<id>08</id>
+		<id>8</id>
 		<name>TCZLIB307</name>
 		<ip>10.10.196.157</ip>
 	</temp>
 	<temp>
-		<id>09</id>
+		<id>9</id>
 		<name>TCZLIB308</name>
 		<ip>10.10.196.158</ip>
 	</temp>
