@@ -4,36 +4,26 @@ import datetime as d
 import io
 import teplomer
 import psycopg2
+import readTermMeterList as R
+import time
 
 
 
 def mainPepega():
 
-    #nacist konfig xml list teplomeru a zinicializovat vsechny teplomery..
-#    readTermMeterList()
+    R.readTermMeter()
+    R.readDbsTermometers(R.termListFromXml)
 
-    #nekonecnej loop, s get data a save data
 
-    conn = psycopg2.connect("dbname='Teplomer' user='postgres' host='localhost' password='pepega'")
-    cursor = conn.cursor()
 
-    sql = "SELECT teplomer_id, teplomer_ip, teplomer_name FROM teplomer;"
+    i = 5
+    while i > 1:
+        for item in R.termListFromXml:
 
-    cursor.execute(sql)
-    data = cursor.fetchall()
+            R.sendDataToDb(item.id)
 
-    retard = "10.10.197.151"
-    print(retard)
-    print(type(retard))
-    for row in data:
-         print("------")
-         print(row[0])
-         print(row[1])
-         print(type(row[1]))
-         print(row[2])
-         pepega = row[1]
-         if (pepega == retard):
-              print("////////////////////schoda")
+        #počkej 20s
+        time.sleep(20)
 
 
 mainPepega()

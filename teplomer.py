@@ -18,6 +18,8 @@ class Teplomer:
         self.name
         return (self.ip_add,self.name)
 
+    def teplomerName(self):
+        self
 
     def getData(self):
         page = requests.get("http://" + self.ip_add + "/xml/?mode=sensor&type=list&id=01")
@@ -40,5 +42,7 @@ class Teplomer:
 
         print("cas :" + timeStamp)
 
-        return (term_name, term_value, timeStamp)
+        return (self.ip_add, term_value, timeStamp)
+
+
 

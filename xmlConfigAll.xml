@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<temp>
+		<id>1</id>
+		<name>TCZLIB301</name>
+		<ip>10.10.197.151</ip>
+	</temp>
+	<temp>
+		<id>2</id>
+		<name>TCZLIB302</name>
+		<ip>10.10.197.152</ip>
+	</temp>
+	<temp>
+		<id>3</id>
+		<name>TCZLIB303</name>
+		<ip>10.10.197.153</ip>
+	</temp>
+	<temp>
+		<id>5</id>
+		<name>TCZLIB304</name>
+		<ip>10.10.197.154</ip>
+	</temp>
+
+	<temp>
+		<id>7</id>
+		<name>TCZLIB306</name>
+		<ip>10.10.197.156</ip>
+	</temp>
+	<temp>
+		<id>8</id>
+		<name>TCZLIB307</name>
+		<ip>10.10.197.157</ip>
+	</temp>
+	<temp>
+		<id>9</id>
+		<name>TCZLIB308</name>
+		<ip>10.10.197.158</ip>
+	</temp>
+	<temp>
+		<id>10</id>
+		<name>TCZLIB309</name>
+		<ip>10.10.197.165</ip>
+	</temp>
+	<temp>
+		<id>11</id>
+		<name>TCZLIB310</name>
+		<ip>10.10.197.159</ip>
+	</temp>
+</list>
